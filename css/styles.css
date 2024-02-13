@@ -1,0 +1,175 @@
+/*====== Common Styles =====*/
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+ing {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+    background-color: #fff;
+}
+/*====== / Common Styles =====*/
+
+/*====== Page Heder Styles =====*/
+.logo {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.166;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.text-italic {
+    color: #2e2f42;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.contact-block {
+    font-style: normal;
+}
+
+.contact-list-item {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+    color: #404bbf;
+}
+/*====== / Page Heder Styles =====*/
+
+/* =========== Hero Section styles =========== */
+.main-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.buy-now-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+
+.buy-now-btn:hover,
+.buy-now-bt:focus {
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 0.04em;
+color: #fff;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #4d5ae5;
+}
+/* =========== / Hero Section styles =========== */
+
+/* =========== Benefits Section styles =========== */
+.benefits-list-title {
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.benefits-list-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* =========== / Benefits Section styles =========== */
+
+/* =========== Employees Section styles =========== */
+.section-title {
+    font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+
+.employees-list-avatar {
+    font-size: 18.4px;
+    width: 264px;
+height: 260px;
+}
+
+.employees-list-fullname {
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.employees-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+/* =========== / Employees Section styles =========== */
+
+/* =========== Footer styles =========== */
+.logotype {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+background: #2e2f42;
+}
+
+.text-etalic {
+    color: #f4f4fd;
+}
+
+.contact-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+background: #2e2f42;
+}
+/* =========== / Footer styles =========== */
