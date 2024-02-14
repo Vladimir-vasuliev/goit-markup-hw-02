@@ -89,8 +89,7 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #fff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    text-align: center;
-background: #404bbf;
+background-color: #4D5AE5;
 }
 
 .buy-now-btn:hover,
@@ -106,6 +105,9 @@ cursor: pointer;
 /* =========== / Hero Section styles =========== */
 
 /* =========== Benefits Section styles =========== */
+.benefits {
+    color: #fff;
+}
 .benefits-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -137,12 +139,10 @@ color: #2e2f42;
 background-color: #FFFFFF;
 }
 
-
-.employees-list-avatar {
-    font-size: 18.4px;
-    width: 264px;
-height: 260px;
+.employees-list-item {
+    background: #fff;
 }
+
 
 .employees-list-fullname {
     font-weight: 500;
