@@ -75,6 +75,7 @@ color: #434455;
 
 }
 .main-title {
+    font-family: inherit;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -88,7 +89,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    text-align: center
 background-color: #4D5AE5;
 }
 
@@ -98,8 +99,7 @@ font-weight: 600;
 font-size: 16px;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-background: #404bbf;
+background: #404BBF;
 cursor: pointer;
 }
 /* =========== / Hero Section styles =========== */
@@ -129,7 +129,7 @@ color: #434455;
     background-color: #F4F4FD;
 }
 
-.section-title {
+.employees-title {
     font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -149,17 +149,13 @@ background-color: #FFFFFF;
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 }
 
 .employees-list-text {
-    font-weight: 400;
-    font-size: 16px;
+    color:#434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
 }
 /* =========== / Employees Section styles =========== */
 
