@@ -40,7 +40,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -86,7 +86,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     text-align: center
     
 }
@@ -94,9 +94,6 @@ color: #434455;
 .buy-now-btn:hover,
 .buy-now-bt:focus {
 font-weight: 600;
-font-size: 16px;
-letter-spacing: 0.04em;
-color: #fff;
 background-color: #404BBF;
 cursor: pointer;
 }
