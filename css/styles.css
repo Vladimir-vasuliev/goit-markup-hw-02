@@ -12,9 +12,6 @@ button {
     cursor: pointer;
 }
 
-ing {
-    display: block;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -89,8 +86,9 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background: #4d5ae5;
     text-align: center
-background-color: #4D5AE5;
+    
 }
 
 .buy-now-btn:hover,
