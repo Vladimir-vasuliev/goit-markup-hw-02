@@ -81,20 +81,24 @@ color: #434455;
 }
 
 .buy-now-btn {
+    background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
     text-align: center
-    cursor: pointer;
+}
+
+.buy-now-btn:active {
+    color: #404bbf;
 }
 
 .buy-now-btn:hover,
 .buy-now-bt:focus {
 font-weight: 600;
 background: #404bbf;
+cursor: pointer;
 }
 /* =========== / Hero Section styles =========== */
 
