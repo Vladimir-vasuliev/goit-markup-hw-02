@@ -88,14 +88,13 @@ color: #434455;
     color: #fff;
     background: #4d5ae5;
     text-align: center
-    
+    cursor: pointer;
 }
 
 .buy-now-btn:hover,
 .buy-now-bt:focus {
 font-weight: 600;
 background: #404bbf;
-cursor: pointer;
 }
 /* =========== / Hero Section styles =========== */
 
