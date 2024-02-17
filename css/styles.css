@@ -59,8 +59,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.contact-list-link:hover,
-.contact-list-link:focus {
+.contact-list-item:hover,
+.contact-list-item:focus {
     color: #404bbf;
 }
 /*====== / Page Heder Styles =====*/
