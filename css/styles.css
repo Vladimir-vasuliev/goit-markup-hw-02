@@ -86,7 +86,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;
+    background: #4d5ae5;
     text-align: center
     
 }
@@ -94,7 +94,7 @@ color: #434455;
 .buy-now-btn:hover,
 .buy-now-bt:focus {
 font-weight: 600;
-background-color: #404bbf;
+background: #404bbf;
 cursor: pointer;
 }
 /* =========== / Hero Section styles =========== */
