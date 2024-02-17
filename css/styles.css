@@ -94,7 +94,7 @@ color: #434455;
     text-align: center
 }
 
-.buy-now-bt:focus {
+.buy-now-btn:focus {
 background: #404bbf;
 cursor: pointer;
 }
