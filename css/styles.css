@@ -59,9 +59,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.contact-list-item:hover,
-.contact-list-item:focus {
+.contact-list-item:hover {
     color: #404bbf;
+}
+
+.contact-list-item:focus {
+    color: #404bbf
 }
 /*====== / Page Heder Styles =====*/
 
@@ -90,13 +93,14 @@ color: #434455;
     text-align: center
 }
 
-.buy-now-btn:active {
-    color: #404bbf;
+.buy-now-btn:hover {
+font-weight: 600;
+background: #404bbf;
+cursor: pointer;
 }
 
-.buy-now-btn:hover,
 .buy-now-bt:focus {
-font-weight: 600;
+    font-weight: 600;
 background: #404bbf;
 cursor: pointer;
 }
