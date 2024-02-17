@@ -52,18 +52,18 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.contact-list-etem {
+.menu-link-link {
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-.contact-list-etem:focus {
+.menu-link-link:focus {
     color: #404bbf
 }
 
-.contact-list-etem:hover {
+.menu-link-link:hover {
     color: #404bbf;
 }
 
