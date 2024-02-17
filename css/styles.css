@@ -52,20 +52,21 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.contact-list-item {
+.contact-list-etem {
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-.contact-list-item:hover {
+.contact-list-etem:hover {
     color: #404bbf;
 }
 
-.contact-list-item:focus {
+.contact-list-etem:focus {
     color: #404bbf
 }
+
 /*====== / Page Heder Styles =====*/
 
 /* =========== Hero Section styles =========== */
