@@ -1,6 +1,20 @@
 /*====== Common Styles =====*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style-type: none;
+    
 }
 
 a {
@@ -18,9 +32,50 @@ body {
     color: #434455;
     background-color: #fff;
 }
+
+.container {
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*====== / Common Styles =====*/
 
 /*====== Page Heder Styles =====*/
+
+.page-heder {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+}
+
+.page-heder-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {   
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-block {
+    display: flex;
+}
+
+.contact-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    column-gap: 40px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -29,6 +84,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 
 .text-italic {
@@ -37,10 +93,13 @@ color: #4d5ae5;
 
 .menu-link {
 font-weight: 500;
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding: 24px 0;
+display: block;
 }
 
 .menu-link:hover,
@@ -71,14 +130,28 @@ color: #434455;
 
 /* =========== Hero Section styles =========== */
 
+.hero-container{
+    width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-right: 472px;
+    padding-left: 472px;
+}
+
 .hero {
     background-color: #2e2f42;
-
+    padding: 188px 0;
 }
 .main-title {
-    font-family: inherit;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -86,12 +159,24 @@ color: #434455;
 
 .buy-btn {
     background: #4d5ae5;
-    font-weight: 500;
+    color: #fff;
+    font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px; 
+    display: block;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -105,15 +190,41 @@ background: #404bbf;
 /* =========== / Hero Section styles =========== */
 
 /* =========== Benefits Section styles =========== */
+
+.benefits-unknown {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .benefits {
     color: #fff;
+    padding: 120px 0;
 }
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .benefits-list-title {
     font-weight: 500;
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -127,6 +238,7 @@ color: #434455;
 /* =========== Employees Section styles =========== */
 .employees {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .employees-title {
@@ -137,27 +249,51 @@ text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 background-color: #FFFFFF;
+margin-bottom: 72px;
+}
+
+.employees-list {
+    display: flex;
+    gap: 24px;
 }
 
 .employees-list-item {
     background: #fff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
 }
 
+.employees-title-name {
+    padding: 32px 0;
+}
 
 .employees-list-fullname {
     font-weight: 500;
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .employees-list-text {
+    font-size: 16px;
     color:#434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /* =========== / Employees Section styles =========== */
+
+/*============= Hoto Section styles ==================*/
+.menu-hoto {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .menu-hoto-tittel {
 font-weight: 700;
@@ -167,6 +303,26 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.menu-hoto-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    text-align: left;
+    row-gap: 48px;
+}
+
+.menu-hoto-intem {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+}
+
+.menu-list-inte {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .menu-list-hoto {
@@ -175,6 +331,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .menu-list-text {
@@ -185,11 +342,15 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/*============= / Hoto Section styles ==================*/
+
 /* =========== Footer styles =========== */
 
 .page-footer  {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
+
 .logotype {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -198,7 +359,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-background: #2e2f42;
+max-width: 115px;
+margin-bottom: 16px;
 }
 
 .text-etalic {
@@ -212,5 +374,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 background: #2e2f42;
+max-width: 264px;
 }
 /* =========== / Footer styles =========== */
