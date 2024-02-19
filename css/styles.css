@@ -33,6 +33,9 @@ body {
     background-color: #fff;
 }
 
+img {
+    display: block;
+}
 .container {
     width: 1158px;
     padding-right: 15px;
@@ -130,6 +133,10 @@ color: #434455;
 
 /* =========== Hero Section styles =========== */
 
+.hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
 .hero-container{
     width: 1440px;
     padding-top: 188px;
@@ -138,10 +145,6 @@ color: #434455;
     padding-left: 472px;
 }
 
-.hero {
-    background-color: #2e2f42;
-    padding: 188px 0;
-}
 .main-title {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 496px;
@@ -191,7 +194,12 @@ background: #404bbf;
 
 /* =========== Benefits Section styles =========== */
 
-.benefits-unknown {
+.benefits {
+    color: #fff;
+    padding: 120px 0;
+}
+
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -202,11 +210,6 @@ background: #404bbf;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.benefits {
-    color: #fff;
-    padding: 120px 0;
 }
 
 .benefits-list {
@@ -258,12 +261,12 @@ margin-bottom: 72px;
 }
 
 .employees-list-item {
+    width: calc((100% - 72px) / 4);
     background: #fff;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
             0px 1px 1px 0px rgba(46, 47, 66, 0.16),
             0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: calc((100% - 72px) / 4);
 }
 
 .employees-title-name {
@@ -315,6 +318,7 @@ margin-bottom: 72px;
 }
 
 .menu-hoto-intem {
+    width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
     width: 360px;
 }
@@ -347,8 +351,8 @@ color: #434455;
 /* =========== Footer styles =========== */
 
 .page-footer  {
-    background-color: #2e2f42;
     padding: 100px 0;
+    background-color: #2e2f42;
 }
 
 .logotype {
@@ -360,6 +364,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 max-width: 115px;
+display: inline-block;
 margin-bottom: 16px;
 }
 
@@ -368,7 +373,6 @@ margin-bottom: 16px;
 }
 
 .contact-text {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
