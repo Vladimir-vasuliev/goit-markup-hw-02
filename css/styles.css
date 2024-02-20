@@ -137,14 +137,6 @@ margin-right: 76px;
     padding: 188px 0;
 }
 
-.hero-container{
-    width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-right: 472px;
-    padding-left: 472px;
-}
-
 .main-title {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 496px;
@@ -227,7 +219,7 @@ background: #404bbf;
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-bottom: 8px;
+margin-bottom: 0px;
 }
 
 .benefits-list-text {
@@ -251,7 +243,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-background-color: #FFFFFF;
 margin-bottom: 72px;
 }
 
@@ -280,7 +271,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 8px;
+margin-bottom: 0px;
 }
 
 .employees-list-text {
@@ -319,8 +310,6 @@ margin-bottom: 72px;
 
 .menu-hoto-intem {
     width: calc((100% - 48px) / 3);
-    border: 1px solid #e7e9fc;
-    width: 360px;
 }
 
 .menu-list-inte {
@@ -335,7 +324,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-bottom: 8px;
+margin-bottom: 0px;
 }
 
 .menu-list-text {
